@@ -15,7 +15,7 @@ public class CricketCoach implements Coach{
     }
     public  String abc() {
         System.out.println("In abc " + getClass().getSimpleName());
-        return "Test 123" + getClass().getSimpleName();
+        return "OK" + getClass().getSimpleName();
     }
 
     @PostConstruct
