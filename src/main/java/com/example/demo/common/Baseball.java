@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 public class Baseball implements Coach{
     public Baseball() {
-        System.out.println("ok);
+        System.out.println("ok");
     }
     @Override
     public String getDailyWorkout() {
