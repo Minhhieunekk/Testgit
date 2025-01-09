@@ -3,7 +3,7 @@ package com.example.demo.common;
 public class SwimCoach implements Coach {
 
     public SwimCoach() {
-        System.out.println("In constructor " + getClass().getSimpleName());
+        System.out.println("Hello " + getClass().getSimpleName());
     }
     @Override
     public String getDailyWorkout() {
